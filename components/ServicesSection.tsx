@@ -78,7 +78,7 @@ export default function ServicesSection() {
   ];
 
   const getIcon = (iconName: string) => {
-    const icons: { [key: string]: any } = {
+    const icons: { [key: string]: React.FC<{ className?: string }> } = {
       Home,
       Building2,
       Sun,
